@@ -37,4 +37,21 @@ export const sayuran = [
   { nama: "Cabe Gendot Hijau", img: "/cabe-gendot-hijau.jpg" },
   { nama: "Cabe Rawit Merah", img: "/cabe-rawit-merah.jpg" },
   { nama: "Jahe Merah", img: "/jahe-merah.jpg" },
+  { nama: "Daun Mint", img: "/daun-mint.jpg" },
+];
+
+export const buah_buah = [
+  {
+    nama: "Ciplukan",
+    img: "/ciplukan.jpeg",
+  },
+  {
+    nama: "Strawberry",
+    img: "/strawberry.jpeg",
+  },
+  { nama: "Mullberry", img: "/mullberry.jpg" },
+  { nama: "Bit", img: "/bit.jpg" },
+  { nama: "Pepino", img: "/pepino.jpg" },
+  { nama: "Alpukat", img: "/alpukat.jpg" },
+  { nama: "Jeruk Dekopon", img: "/jeruk-dekopon.jpg" },
 ];

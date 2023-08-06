@@ -1,6 +1,12 @@
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "Kontak | Bandung Farmer",
+  description: "Bandung Farmer",
+};
 
 export default function Kontak() {
   return (
@@ -12,13 +18,15 @@ export default function Kontak() {
             <h1 className="text-5xl font-extrabold">Office</h1>
             <p className="my-8">
               <span className="font-medium">
-                Jl. Datar Puspa, Ranca Bali, Bandung.
+                Jl. Datar Puspa 002/04, Alam Endah, Ranca Bali, Bandung.
               </span>
             </p>
             <h1 className="text-5xl font-extrabold">Telepon</h1>
-            <p className="my-8">
-              <span className="font-medium">+6283822727338</span>
-            </p>
+            <a href="https://api.whatsapp.com/send/?phone=6282121116002&text&type=phone_number&app_absent=0">
+              <p className="my-8">
+                <span className="font-medium">+6282121116002</span>
+              </p>
+            </a>
           </div>
 
           <Image

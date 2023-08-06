@@ -1,6 +1,12 @@
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "Tentang | Bandung Farmer",
+  description: "Bandung Farmer",
+};
 
 export default function Tentang() {
   return (
@@ -23,15 +29,7 @@ export default function Tentang() {
             <h1 className="text-[40px] font-bold">
               Sekilas Tentang Bandung Farmer
             </h1>
-            <p>
-              TaniHub Group TaniHub Group adalah sebuah grup perusahaan
-              agriculture technology yang hadir pada tahun 2016. ​ Berawal dari
-              sebuah mimpi untuk menyejahterakan para petani kecil, TaniHub
-              Group melalui unit bisnisnya, yaitu TaniHub Food Solutions,
-              TaniFund, TaniSupply, TaniFoundation, dan Tani Mitra Koperasi
-              hingga hari ini terus berusaha mewujudkan ekosistem pertanian yang
-              lebih baik.
-            </p>
+            <p>Bandung Farmer adalah supplier sayuran dan buah-buahan.</p>
           </div>
         </div>
       </div>

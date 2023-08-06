@@ -11,111 +11,78 @@ export default function Home() {
         <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
           <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
             <h1 className="text-3xl font-extrabold sm:text-5xl">
-              Let us find your
-              <strong className="block font-extrabold text-rose-700">
-                Forever Home.
-              </strong>
+              Penuhi Kebutuhan Usaha Makanan dan Minuman di Bandung Farmer
             </h1>
-
-            <p className="mt-4 max-w-lg sm:text-xl/relaxed">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-              illo tenetur fuga ducimus numquam ea!
-            </p>
 
             <div className="mt-8 flex flex-wrap gap-4 text-center">
               <a
-                href="#"
-                className="block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+                href="https://api.whatsapp.com/send/?phone=6282121116002&text&type=phone_number&app_absent=0"
+                className="block w-full rounded bg-[#a8d643] px-12 py-3 text-sm font-medium text-black shadow hover:bg-[#96c03c] focus:outline-none focus:ring active:bg-[#b2e447] sm:w-auto"
               >
-                Get Started
-              </a>
-
-              <a
-                href="#"
-                className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-rose-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
-              >
-                Learn More
+                Hubungi Kami
               </a>
             </div>
           </div>
         </div>
       </section>
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-[#a8d643]">
         <div className="container px-6 py-10 mx-auto">
           <div className="lg:flex lg:items-center">
             <div className="w-full space-y-12 lg:w-1/2 ">
-              <div>
-                <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
-                  explore our <br /> awesome Components
-                </h1>
-
-                <div className="mt-2">
-                  <span className="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
-                  <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-                  <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
-                </div>
-              </div>
-
               <div className="md:flex md:items-start md:-mx-4">
-                <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                <span className="inline-block p-2 text-white bg-slate-800 rounded-xl md:mx-4">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-6 h-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
                     stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6"
+                    xmlns="http://www.w3.org/2000/svg"
                   >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
-                    />
+                    <path d="M5 2c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h3.586L12 21.414 15.414 18H19c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2H5zm14 14h-4.414L12 18.586 9.414 16H5V4h14v12z"></path>
+                    <path d="M7 7h10v2H7zm0 4h7v2H7z"></path>
                   </svg>
                 </span>
 
                 <div className="mt-4 md:mx-4 md:mt-0">
-                  <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                  <h1 className="text-xl font-semibold text-black capitalize">
                     Proses Pemesanan Mudah
                   </h1>
 
-                  <p className="mt-3 text-gray-500 dark:text-gray-300">
+                  <p className="mt-3 text-black">
                     Cukup hubungi tim WhatsApp kami
                   </p>
                 </div>
               </div>
 
               <div className="md:flex md:items-start md:-mx-4">
-                <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                <span className="inline-block p-2 text-white bg-slate-800 rounded-xl md:mx-4">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-6 h-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
                     stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6"
+                    xmlns="http://www.w3.org/2000/svg"
                   >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
-                    />
+                    <path d="M17.03 9.78a.75.75 0 0 0-1.06-1.06l-5.47 5.47-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l6-6Z"></path>
+                    <path d="m14.136 1.2 1.375 1.01c.274.201.593.333.929.384l1.687.259a3.61 3.61 0 0 1 3.02 3.021l.259 1.686c.051.336.183.655.384.929l1.01 1.375a3.61 3.61 0 0 1 0 4.272l-1.01 1.375a2.106 2.106 0 0 0-.384.929l-.259 1.687a3.61 3.61 0 0 1-3.021 3.02l-1.686.259a2.106 2.106 0 0 0-.929.384l-1.375 1.01a3.61 3.61 0 0 1-4.272 0l-1.375-1.01a2.106 2.106 0 0 0-.929-.384l-1.687-.259a3.61 3.61 0 0 1-3.02-3.021l-.259-1.686a2.117 2.117 0 0 0-.384-.929L1.2 14.136a3.61 3.61 0 0 1 0-4.272l1.01-1.375c.201-.274.333-.593.384-.929l.259-1.687a3.61 3.61 0 0 1 3.021-3.02l1.686-.259c.336-.051.655-.183.929-.384L9.864 1.2a3.61 3.61 0 0 1 4.272 0Zm-3.384 1.209-1.375 1.01a3.614 3.614 0 0 1-1.59.658l-1.686.258a2.111 2.111 0 0 0-1.766 1.766l-.258 1.686a3.61 3.61 0 0 1-.658 1.589l-1.01 1.376a2.11 2.11 0 0 0 0 2.496l1.01 1.375c.344.469.57 1.015.658 1.59l.258 1.686c.14.911.855 1.626 1.766 1.766l1.686.258a3.61 3.61 0 0 1 1.589.658l1.376 1.01a2.11 2.11 0 0 0 2.496 0l1.375-1.01a3.613 3.613 0 0 1 1.59-.657l1.686-.26a2.11 2.11 0 0 0 1.766-1.765l.258-1.686a3.61 3.61 0 0 1 .658-1.589l1.01-1.376a2.11 2.11 0 0 0 0-2.496l-1.01-1.375a3.613 3.613 0 0 1-.657-1.59l-.26-1.686a2.11 2.11 0 0 0-1.765-1.766l-1.686-.258a3.61 3.61 0 0 1-1.589-.658l-1.376-1.01a2.11 2.11 0 0 0-2.496 0Z"></path>
                   </svg>
                 </span>
 
                 <div className="mt-4 md:mx-4 md:mt-0">
-                  <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                  <h1 className="text-xl font-semibold text-black capitalize">
                     Produk Berkulitas
                   </h1>
 
-                  <p className="mt-3 text-gray-500 dark:text-gray-300">
+                  <p className="mt-3 text-black">
                     Dapatkan produk segar dan berkualitas
                   </p>
                 </div>
               </div>
 
               <div className="md:flex md:items-start md:-mx-4">
-                <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                <span className="inline-block p-2 text-white bg-slate-800 rounded-xl md:mx-4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="w-6 h-6"
@@ -139,11 +106,11 @@ export default function Home() {
                 </span>
 
                 <div className="mt-4 md:mx-4 md:mt-0">
-                  <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                  <h1 className="text-xl font-semibold text-black capitalize">
                     Pengiriman Cepat
                   </h1>
 
-                  <p className="mt-3 text-gray-500 dark:text-gray-300">
+                  <p className="mt-3 text-black">
                     Dapatkan dengan pengiriman yang cepat
                   </p>
                 </div>
@@ -162,7 +129,7 @@ export default function Home() {
           </div>
 
           <hr className="my-12 border-gray-200 dark:border-gray-700" />
-          <div className="bg-white text-black flex">
+          <div className="bg-white text-black flex rounded-xl overflow-hidden">
             <Image
               src={"/strawberry.jpeg"}
               alt={"Strawberry"}
@@ -175,8 +142,8 @@ export default function Home() {
                 Solusi tepercaya untuk memenuhi semua kebutuhan usaha Anda.
                 Lewat ribuan produk segar terbaik yang dapat disesuaikan dengan
                 kebutuhan usaha serta didukung oleh ekosistem logistik dan
-                penyimpanan yang mutakhir, TaniHub Food Solution berkomitmen
-                untuk mewujudkan potensi usaha Anda menjadi hasil nyata
+                penyimpanan yang mutakhir, Bandung Farmer berkomitmen untuk
+                mewujudkan potensi usaha Anda menjadi hasil nyata
               </span>
             </div>
           </div>
