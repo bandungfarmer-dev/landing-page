@@ -50,7 +50,8 @@ export default function Home() {
                   </h1>
 
                   <p className="mt-3 text-black">
-                    Cukup hubungi tim WhatsApp kami
+                    Proses Pemesanan Mudah dengan Menghubungi Tim WhatsApp Kami
+                    di +6282121116002
                   </p>
                 </div>
               </div>
@@ -76,7 +77,8 @@ export default function Home() {
                   </h1>
 
                   <p className="mt-3 text-black">
-                    Dapatkan produk segar dan berkualitas
+                    Dapatkan Produk Segar dan Berkulitas Hasil Panen Dadakan
+                    Petani Indonesia.
                   </p>
                 </div>
               </div>
@@ -111,7 +113,8 @@ export default function Home() {
                   </h1>
 
                   <p className="mt-3 text-black">
-                    Dapatkan dengan pengiriman yang cepat
+                    Jam Pengiriman Cepat dan Fleksibel. Bisa Atur Waktu Sesuai
+                    Kebutuhan
                   </p>
                 </div>
               </div>

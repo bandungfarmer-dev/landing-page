@@ -29,7 +29,9 @@ export default function Tentang() {
             <h1 className="text-[40px] font-bold">
               Sekilas Tentang Bandung Farmer
             </h1>
-            <p>Bandung Farmer adalah supplier sayuran dan buah-buahan.</p>
+            <p className="text-black">
+              Bandung Farmer adalah supplier sayuran dan buah-buahan.
+            </p>
           </div>
         </div>
       </div>
