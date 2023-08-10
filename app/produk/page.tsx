@@ -28,6 +28,7 @@ export default function Produk() {
                   <Image
                     className="rounded-xl object-cover object-center"
                     fill
+                    sizes="100vw"
                     src={sayur.img}
                     alt={sayur.nama}
                   />
@@ -60,6 +61,7 @@ export default function Produk() {
                   <Image
                     className="rounded-xl object-cover object-center"
                     fill
+                    sizes="100vw"
                     src={buah.img}
                     alt={buah.nama}
                   />

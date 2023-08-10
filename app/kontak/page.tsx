@@ -30,10 +30,10 @@ export default function Kontak() {
           </div>
 
           <Image
-            src="/goldenkismis.jpeg"
-            width={200}
-            height={200}
-            alt=""
+            src="/bf-team-3.jpeg"
+            width={500}
+            height={500}
+            alt="Bandung Farmer"
             className="object-cover w-full rounded-md xl:col-span-3 dark:bg-gray-500"
           />
         </div>
