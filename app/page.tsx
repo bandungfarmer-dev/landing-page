@@ -34,7 +34,7 @@ export default function Home() {
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 24 24"
                     className="w-6 h-6"
                     xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@ export default function Home() {
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 24 24"
                     className="w-6 h-6"
                     xmlns="http://www.w3.org/2000/svg"
@@ -95,13 +95,13 @@ export default function Home() {
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeWidth="2"
                       d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"
                     />
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeWidth="2"
                       d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"
                     />
                   </svg>
@@ -122,11 +122,11 @@ export default function Home() {
 
             <div className="hidden lg:flex lg:items-center lg:w-1/2 lg:justify-center">
               <Image
-                className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] rounded-full"
-                src="/ciplukan.jpg"
-                width={100}
-                height={100}
-                alt=""
+                className="w-[28rem] h-[28rem] object-cover object-center xl:w-[34rem] xl:h-[34rem] rounded-full"
+                src="/daun-bawang.jpg"
+                width={500}
+                height={500}
+                alt="Bandung Farmer Team"
               />
             </div>
           </div>
@@ -134,8 +134,8 @@ export default function Home() {
           <hr className="my-12 border-gray-200 dark:border-gray-700" />
           <div className="bg-white text-black flex rounded-xl overflow-hidden">
             <Image
-              src={"/strawberry.jpeg"}
-              alt={"Strawberry"}
+              src={"/bf-team-3.jpeg"}
+              alt={"Bandung Farmer Team"}
               width={400}
               height={400}
             />

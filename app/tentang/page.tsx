@@ -13,19 +13,26 @@ export default function Tentang() {
     <>
       <Header />
       <div className="w-full">
-        <div className="relative w-full h-[500px]">
+        <div className="relative w-full aspect-video h-auto">
           <Image
-            src={"/bg-web.png"}
+            src={"/bf-team-2.jpeg"}
             alt={"Bandung Farmer"}
             fill
-            className="object-cover"
+            sizes="100vw"
+            className="object-cover object-center"
           />
         </div>
-        <div className="flex p-8">
-          <div className="w-1/3">
-            <Image src={"/Cabe.jpeg"} alt={"Cabe"} width={300} height={200} />
+        <div className="flex lg:flex-row flex-col p-8">
+          <div className="lg:w-1/3 w-full">
+            <Image
+              src={"/bf-team-4.jpeg"}
+              alt={"Bandung Farmer"}
+              className="w-full rounded-xl"
+              width={300}
+              height={200}
+            />
           </div>
-          <div className="w-2/3 p-8">
+          <div className="lg:w-2/3 w-full p-8">
             <h1 className="text-[40px] font-bold">
               Sekilas Tentang Bandung Farmer
             </h1>
