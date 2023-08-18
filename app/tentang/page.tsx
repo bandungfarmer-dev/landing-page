@@ -13,13 +13,13 @@ export default function Tentang() {
     <>
       <Header />
       <div className="w-full">
-        <div className="relative w-full aspect-video h-auto">
+        <div className="relative w-full">
           <Image
-            src={"/bf-team-2.jpeg"}
+            src={"/team-bf.jpeg"}
             alt={"Bandung Farmer"}
-            fill
-            sizes="100vw"
-            className="object-cover object-center"
+            width={1280}
+            height={700}
+            className="object-cover object-center w-full aspect-[18/9]"
           />
         </div>
         <div className="flex lg:flex-row flex-col p-8">
@@ -33,11 +33,20 @@ export default function Tentang() {
             />
           </div>
           <div className="lg:w-2/3 w-full p-8">
-            <h1 className="text-[40px] font-bold">
+            <h1 className="text-[40px] text-black font-bold">
               Sekilas Tentang Bandung Farmer
             </h1>
             <p className="text-black">
-              Bandung Farmer adalah supplier sayuran dan buah-buahan.
+              Bandung Farmer adalah suatu bentuk usaha pengembangan dari sektor
+              pertanian lokal bandung dari pertanian konvensional menjadi
+              pertanian modern/digital. Bandung Farmer memiliki tujuan untuk
+              kesejahteraan petani dengan cara menjual hasil pertanian langsung
+              ke konsumen, toko/supermarket, dan mitra pemasaran. sehingga dari
+              pembeli mendapatkan harga yang murah, bagus dan masih fresh, dan
+              dari pihak Petani mendapatkan kepastian harga dan penjualan hasil
+              pertanian Bandung farmer di dirikan sejak 2018 oleh seorang anak
+              petani lokal bandung dan berkembang terus sampai saat ini
+              informasi selengkap nya silahkan hubungi kami Terima kasih.
             </p>
           </div>
         </div>

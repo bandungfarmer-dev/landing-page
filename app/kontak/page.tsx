@@ -12,19 +12,18 @@ export default function Kontak() {
   return (
     <>
       <Header />
-      <section className="p-6 bg-white">
-        <div className="container grid gap-6 mx-auto text-center lg:grid-cols-2 xl:grid-cols-5">
+      <section className="p-6 min-h-screen flex items-center bg-white">
+        <div className="container grid gap-6 md:max-w-[80%]  mx-auto text-center lg:grid-cols-2 xl:grid-cols-5">
           <div className="w-full px-6 py-16 rounded-md sm:px-12 md:px-16 xl:col-span-2 text-black shadow-md">
-            <h1 className="text-5xl font-extrabold">Office</h1>
-            <p className="my-8">
-              <span className="font-medium">
-                Jl. Datar Puspa 002/04, Alam Endah, Ranca Bali, Bandung.
-              </span>
+            <h2 className="text-5xl mb-4 font-extrabold">Hubungi Kami</h2>
+            <h2 className="text-3xl font-extrabold">Office</h2>
+            <p className="my-6">
+              <span className="font-medium">022-85922132</span>
             </p>
-            <h1 className="text-5xl font-extrabold">Telepon</h1>
+            <h2 className="text-3xl font-extrabold">WhatsApp</h2>
             <a href="https://api.whatsapp.com/send/?phone=6282121116002&text&type=phone_number&app_absent=0">
-              <p className="my-8">
-                <span className="font-medium">+6282121116002</span>
+              <p className="my-6">
+                <span className="font-medium">6282121116002</span>
               </p>
             </a>
           </div>
