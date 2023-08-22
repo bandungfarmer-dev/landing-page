@@ -22,6 +22,7 @@ export const sayuran = [
   { nama: "Bawang Bombay", img: "/bawang-bombay.png" },
   { nama: "Kol", img: "/kol.jpg" },
   { nama: "Seledri", img: "/seledri.jpg" },
+  { nama: "Kentang Rendang", img: "/kentang-kecil.jpg" },
   { nama: "Lobak", img: "/lobak.jpeg" },
   { nama: "Tomat Cherry", img: "/tomat-cerry.png" },
   { nama: "Kembang Kol", img: "/kembang-kol.jpg" },

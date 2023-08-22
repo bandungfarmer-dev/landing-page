@@ -13,8 +13,8 @@ export default function Produk() {
   return (
     <>
       <Header />
-      <div>
-        <h1 className="text-3xl my-4 text-center mx-auto text-black font-semibold">
+      <div className='className="mb-5 pb-5 px-2'>
+        <h1 className="text-3xl border-b-2 border-b-[#a8d643] p-4 my-4 text-center mx-auto text-[#a8d643] font-semibold">
           Sayuran
         </h1>
         <div className="p-4 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -39,7 +39,7 @@ export default function Produk() {
 
                   <div className="flex justify-between items-center">
                     <div>
-                      <h2 className="mt-5 text-2xl text-black font-semibold">
+                      <h2 className="mt-5 text-2xl text-[#a8d643] font-semibold">
                         {sayur.nama}
                       </h2>
                     </div>
@@ -49,11 +49,11 @@ export default function Produk() {
             })}
         </div>
       </div>
-      <div className="mb-5 pb-5 border-b">
-        <h1 className="text-3xl my-4 text-center mx-auto text-black font-semibold">
+      <div className="mb-5 pb-5 px-2 border-b">
+        <h1 className="text-3xl border-b-2 border-b-[#a8d643] p-4 my-4 text-center mx-auto text-[#a8d643] font-semibold">
           Buah-Buahan
         </h1>
-        <div className="p-4 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="py-4 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {buah_buah
             .slice()
             .sort((a, b) => a.nama.localeCompare(b.nama))
@@ -74,7 +74,7 @@ export default function Produk() {
                   </div>
                   <div className="flex justify-between items-center">
                     <div>
-                      <h2 className="mt-5 text-2xl text-black font-semibold">
+                      <h2 className="mt-5 text-2xl text-[#a8d643] font-semibold">
                         {buah.nama}
                       </h2>
                     </div>

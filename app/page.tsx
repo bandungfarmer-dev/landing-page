@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <>
       <Header />
-      <section className="relative min-h-screen justify-between">
+      <section className="relative bg-[url(/bg-web-2.webp)] bg-contain bg-center bg-fixed bg-no-repeat min-h-screen justify-between">
         <div className="flex md:flex-row flex-col items-center">
-          <div className="relative bg-[url(/bg-web-2.webp)] bg-contain bg-center bg-no-repeat md:w-1/2 mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:items-center lg:px-8">
+          <div className="relative md:w-1/2 mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:items-center lg:px-8">
             {/* <div className="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div> */}
 
             <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
