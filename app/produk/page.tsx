@@ -14,7 +14,7 @@ export default function Produk() {
     <>
       <Header />
       <div className="mb-5 pb-5 px-2 border-b">
-        <h1 className="text-3xl w-[80%] border-b-2 border-b-black p-4 my-4 text-center mx-auto text-black font-semibold">
+        <h1 className="text-3xl w-[80%] border-b-2 border-b-slate p-4 my-4 text-center mx-auto text-black font-semibold">
           Buah-Buahan
         </h1>
         <div className="py-4 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -46,7 +46,7 @@ export default function Produk() {
         </div>
       </div>
       <div className="mb-5 pb-5 px-2">
-        <h1 className="text-3xl w-[80%] border-b-2 border-b-black p-4 my-4 text-center mx-auto text-black font-semibold">
+        <h1 className="text-3xl w-[80%] border-b-2 border-b-slate p-4 my-4 text-center mx-auto text-black font-semibold">
           Sayuran
         </h1>
         <div className="p-4 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">

@@ -2,7 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.cdnfonts.com/css/avenir-lt-pro");
+@font-face {
+  font-family: "Avenir LT Pro";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Pro"),
+    url("/fonts/AvenirLTProLight.otf") format("truetype");
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
