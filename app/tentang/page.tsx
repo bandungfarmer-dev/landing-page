@@ -22,21 +22,28 @@ export default function Tentang() {
             className="object-cover object-center w-full aspect-[18/9]"
           />
         </div>
-        <div className="flex lg:flex-row flex-col p-8">
-          <div className="lg:w-1/5 w-full">
+        <div className="flex lg:flex-row max-w-[900px] mx-auto flex-col p-8">
+          <div className="lg:w-3/6 w-full">
             <Image
               src={"/bf-team-3.jpeg"}
               alt={"Bandung Farmer"}
-              className="w-full rounded-xl"
+              className="w-full mb-8 aspect-video object-cover rounded-xl"
+              width={300}
+              height={200}
+            />
+            <Image
+              src={"/bf-team-2.jpeg"}
+              alt={"Bandung Farmer"}
+              className="w-full hidden lg:block mb-8 aspect-video object-cover rounded-xl"
               width={300}
               height={200}
             />
           </div>
-          <div className="lg:w-4/5 w-full px-8">
-            <h1 className="text-[40px] text-black font-bold">
+          <div className="lg:w-3/6 w-full px-8">
+            <h1 className="text-3xl mb-3 text-black font-bold">
               Sekilas Tentang Bandung Farmer
             </h1>
-            <p className="text-black mb-3">
+            <p className="text-black mb-5">
               Bandung Farmer adalah suatu bentuk usaha pengembangan dari sektor
               pertanian lokal bandung dari pertanian konvensional menjadi
               pertanian modern/digital. Bandung Farmer memiliki tujuan untuk

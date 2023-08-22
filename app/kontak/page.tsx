@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function Kontak() {
   return (
     <>
-      <div className="">
+      <div className="overflow-hidden">
         <Header />
         <section className="p-6 overflow-hidden relative flex flex-col justify-center items-center">
           <div className="px-6 self-center py-16 rounded-md sm:px-12 md:px-16 xl:col-span-2 text-black shadow-md">
@@ -27,8 +27,8 @@ export default function Kontak() {
               </p>
             </a>
           </div>
-          <div className="relative h-[200px] w-[300px]">
-            <div className="bg-[url(/bg-web-2.webp)] absolute h-[300px] w-[300px] bottom-[-50%] bg-contain bg-[center_bottom_10%] bg-no-repeat"></div>
+          <div className="relative h-[200px] w-full">
+            <div className="bg-[url(/bg-web-2.webp)] absolute h-[600px] w-full bottom-[-150%] bg-contain bg-center bg-no-repeat"></div>
           </div>
         </section>
       </div>
