@@ -66,12 +66,12 @@ export const buah_buah = [
     nama: "Ciplukan",
     img: "/ciplukan.jpeg",
   },
-  { nama: "Terong Belanda", img: "/terong-belanda.jpg" },
   {
     nama: "Strawberry",
     img: "/strawberry.jpeg",
   },
   { nama: "Mullberry", img: "/mullberry.jpg" },
+  { nama: "Terong Belanda", img: "/terong-belanda.jpg" },
   { nama: "Bit", img: "/bit.jpg" },
   { nama: "Pepino", img: "/pepino.jpg" },
   { nama: "Jeruk Dekopon", img: "/jeruk-dekopon.jpg" },

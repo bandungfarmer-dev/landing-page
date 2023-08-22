@@ -3,14 +3,14 @@ import Link from "next/link";
 
 export const Header = () => {
   return (
-    <nav className="flex shadow-md justify-between px-5 py-5 items-center bg-[#a8d643]">
+    <nav className="flex shadow-md justify-between px-5 py-5 items-center bg-white">
       <div className="flex items-center">
         <Link href={"/"} className="flex items-center">
           <Image
             src={"/icon/logo-bf.png"}
-            className="object-center h-[50px] w-[170px] object-cover"
-            width={137}
-            height={23}
+            className="object-center h-[120px] w-[350px] object-cover"
+            width={1000}
+            height={1000}
             alt={"Bandung Farmer"}
           />
         </Link>

@@ -23,30 +23,32 @@ export default function Tentang() {
           />
         </div>
         <div className="flex lg:flex-row flex-col p-8">
-          <div className="lg:w-1/3 w-full">
+          <div className="lg:w-1/5 w-full">
             <Image
-              src={"/bf-team-4.jpeg"}
+              src={"/bf-team-3.jpeg"}
               alt={"Bandung Farmer"}
               className="w-full rounded-xl"
               width={300}
               height={200}
             />
           </div>
-          <div className="lg:w-2/3 w-full p-8">
+          <div className="lg:w-4/5 w-full px-8">
             <h1 className="text-[40px] text-black font-bold">
               Sekilas Tentang Bandung Farmer
             </h1>
-            <p className="text-black">
+            <p className="text-black mb-3">
               Bandung Farmer adalah suatu bentuk usaha pengembangan dari sektor
               pertanian lokal bandung dari pertanian konvensional menjadi
               pertanian modern/digital. Bandung Farmer memiliki tujuan untuk
               kesejahteraan petani dengan cara menjual hasil pertanian langsung
-              ke konsumen, toko/supermarket, dan mitra pemasaran. sehingga dari
-              pembeli mendapatkan harga yang murah, bagus dan masih fresh, dan
-              dari pihak Petani mendapatkan kepastian harga dan penjualan hasil
-              pertanian Bandung farmer di dirikan sejak 2018 oleh seorang anak
-              petani lokal bandung dan berkembang terus sampai saat ini
-              informasi selengkap nya silahkan hubungi kami Terima kasih.
+              ke konsumen, toko/supermarket, dan mitra pemasaran.
+            </p>
+            <p className="text-black">
+              Sehingga dari pembeli mendapatkan harga yang murah, bagus dan
+              masih fresh, dan dari pihak Petani mendapatkan kepastian harga.
+              Bandung farmer di dirikan sejak 2018 oleh seorang anak petani
+              lokal Bandung dan berkembang terus sampai saat ini informasi
+              selengkap nya silahkan hubungi kami Terima kasih.
             </p>
           </div>
         </div>
