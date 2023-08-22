@@ -23,23 +23,23 @@ export default function Tentang() {
           />
         </div>
         <div className="flex lg:flex-row max-w-[900px] mx-auto flex-col p-8">
-          <div className="lg:w-3/6 w-full">
+          <div className="lg:w-5/12 w-full">
             <Image
               src={"/bf-team-3.jpeg"}
               alt={"Bandung Farmer"}
-              className="w-full mb-8 aspect-video object-cover rounded-xl"
-              width={300}
-              height={200}
+              className="w-full mb-8 aspect-video object-cover rounded"
+              width={1000}
+              height={1000}
             />
             <Image
               src={"/bf-team-2.jpeg"}
               alt={"Bandung Farmer"}
-              className="w-full hidden lg:block mb-8 aspect-video object-cover rounded-xl"
-              width={300}
-              height={200}
+              className="w-full hidden lg:block mb-8 aspect-video object-cover rounded"
+              width={1000}
+              height={1000}
             />
           </div>
-          <div className="lg:w-3/6 w-full px-8">
+          <div className="lg:w-7/12 w-full px-8">
             <h1 className="text-3xl mb-3 text-black font-bold">
               Sekilas Tentang Bandung Farmer
             </h1>

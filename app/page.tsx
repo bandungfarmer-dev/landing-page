@@ -14,8 +14,9 @@ export default function Home() {
                   Bandung Farmer
                 </h1>
                 <p className="text-xl text-black">
-                  Penyedia buah dan sayur segar langsung dari Petani menerima
-                  pesanan buah dan sayur baik partai kecil maupun partai besar
+                  Penyedia buah dan sayur segar langsung dari Petani dan
+                  menerima pesanan buah dan sayur baik partai kecil maupun
+                  partai besar
                 </p>
               </div>
               <div className="bottom-0 h-[200px] w-full inset-0 bg-[url(/bg-web-2.webp)] bg-contain bg-center bg-no-repeat"></div>
@@ -45,7 +46,7 @@ export default function Home() {
 
                       <p className="mt-3 text-black">
                         Proses Pemesanan Mudah dengan Menghubungi Tim WhatsApp
-                        Kami di +6282121116002
+                        Kami +6282121116002
                       </p>
                     </div>
                   </div>
