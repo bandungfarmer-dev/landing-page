@@ -15,10 +15,11 @@ export default function Tentang() {
       <div className="w-full">
         <div className="relative w-full">
           <Image
-            src={"/team-bf.jpeg"}
+            src={"/team-bf-cover.jpg"}
             alt={"Bandung Farmer"}
-            width={1280}
-            height={700}
+            width={1600}
+            quality={90}
+            height={1000}
             className="object-cover object-center w-full aspect-[18/9]"
           />
         </div>

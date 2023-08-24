@@ -19,13 +19,13 @@ export default function Home() {
                   partai besar
                 </p>
               </div>
-              <div className="bottom-0 h-[200px] w-full inset-0 bg-[url(/bg-web-2.webp)] bg-contain bg-center bg-no-repeat"></div>
+              <div className="bottom-0 h-[325px] w-full inset-0 bg-[url(/bg-web-2.webp)] bg-contain bg-center bg-no-repeat"></div>
             </div>
             <div className="container bg-transparent h-full md:w-4/6 px-6 py-10 mx-auto">
               <div className="lg:flex lg:items-center">
                 <div className="w-full space-y-12">
                   <div className="md:flex bg-white shadow-md md:items-start p-2 rounded-md">
-                    <span className="inline-block p-2 text-white bg-[#a8d643] rounded-xl">
+                    <span className="inline-block p-2 text-white bg-[#8BE8E5] rounded-xl">
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
@@ -52,7 +52,7 @@ export default function Home() {
                   </div>
 
                   <div className="md:flex bg-white shadow-md md:items-start p-2 rounded-md">
-                    <span className="inline-block p-2 text-white bg-[#a8d643] rounded-xl">
+                    <span className="inline-block p-2 text-white bg-[#8BE8E5] rounded-xl">
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
@@ -78,7 +78,7 @@ export default function Home() {
                   </div>
 
                   <div className="md:flex bg-white shadow-md md:items-start p-2 rounded-md">
-                    <span className="inline-block p-2 text-white bg-[#a8d643] rounded-xl">
+                    <span className="inline-block p-2 text-white bg-[#8BE8E5] rounded-xl">
                       <svg
                         stroke="currentColor"
                         fill="none"
@@ -116,7 +116,7 @@ export default function Home() {
             <div className="mt-8 flex flex-wrap gap-4 mx-auto justify-center text-center">
               <a
                 href="https://api.whatsapp.com/send/?phone=6282121116002&text&type=phone_number&app_absent=0"
-                className="block w-full rounded bg-[#a8d643] px-12 py-3 text-sm font-medium text-black shadow hover:bg-[#96c03c] focus:outline-none focus:ring active:bg-[#b2e447] sm:w-auto"
+                className="block w-full rounded bg-[#8BE8E5] px-12 py-3 text-sm font-medium text-black shadow hover:bg-[#96c03c] focus:outline-none focus:ring active:bg-[#b2e447] sm:w-auto"
               >
                 Hubungi Kami
               </a>
