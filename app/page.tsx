@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 export default function Home() {
@@ -25,7 +24,7 @@ export default function Home() {
               <div className="lg:flex lg:items-center">
                 <div className="w-full space-y-12">
                   <div className="md:flex bg-white shadow-md md:items-start p-2 rounded-md">
-                    <span className="inline-block p-2 text-white bg-[#8BE8E5] rounded-xl">
+                    <span className="inline-block p-2 text-white bg-[#ADE792] rounded-xl">
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
@@ -52,7 +51,7 @@ export default function Home() {
                   </div>
 
                   <div className="md:flex bg-white shadow-md md:items-start p-2 rounded-md">
-                    <span className="inline-block p-2 text-white bg-[#8BE8E5] rounded-xl">
+                    <span className="inline-block p-2 text-white bg-[#ADE792] rounded-xl">
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
@@ -78,7 +77,7 @@ export default function Home() {
                   </div>
 
                   <div className="md:flex bg-white shadow-md md:items-start p-2 rounded-md">
-                    <span className="inline-block p-2 text-white bg-[#8BE8E5] rounded-xl">
+                    <span className="inline-block p-2 text-white bg-[#ADE792] rounded-xl">
                       <svg
                         stroke="currentColor"
                         fill="none"
@@ -116,7 +115,7 @@ export default function Home() {
             <div className="mt-8 flex flex-wrap gap-4 mx-auto justify-center text-center">
               <a
                 href="https://api.whatsapp.com/send/?phone=6282121116002&text&type=phone_number&app_absent=0"
-                className="block w-full rounded bg-[#8BE8E5] px-12 py-3 text-sm font-medium text-black shadow hover:bg-[#96c03c] focus:outline-none focus:ring active:bg-[#b2e447] sm:w-auto"
+                className="block w-full rounded bg-[#ADE792] px-12 py-3 text-sm font-medium text-black shadow hover:bg-[#96c03c] focus:outline-none focus:ring active:bg-[#b2e447] sm:w-auto"
               >
                 Hubungi Kami
               </a>
