@@ -16,7 +16,7 @@ export const Header = () => {
   };
 
   return (
-    <nav className="flex shadow-md justify-between px-5 py-5 items-center bg-[#ADE792]">
+    <nav className="flex shadow-md justify-between px-5 py-5 items-center bg-[#B5FE83]">
       <div className="flex items-center">
         <Link href={"/"} className="flex items-center">
           <Image
@@ -64,7 +64,7 @@ export const Header = () => {
             </svg>
           </button>
         ) : (
-          <div className="fixed inset-0 bg-[#ADE792] h-screen w-screen z-50">
+          <div className="fixed inset-0 bg-[#B5FE83] h-screen w-screen z-50">
             <div className="flex flex-col items-center justify-center h-full w-full">
               <ul className="space-y-6 text-center">
                 <li className="font-semibold text-gray-700">
