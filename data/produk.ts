@@ -70,6 +70,22 @@ export const buah_buah = [
     img: "/ciplukan.jpeg",
   },
   {
+    nama: "Kismis Ciplukan",
+    img: "/goldenkismis.jpeg",
+  },
+  {
+    nama: "Kerupuk Ciplukan",
+    img: "/kerupuk-ciplukan.jpeg",
+  },
+  {
+    nama: "Selai Ciplukan",
+    img: "/selai-ciplukan.jpeg",
+  },
+  {
+    nama: "Dodol Ciplukan",
+    img: "/dodol-ciplukan.jpeg",
+  },
+  {
     nama: "Strawberry",
     img: "/strawberry.jpg",
   },

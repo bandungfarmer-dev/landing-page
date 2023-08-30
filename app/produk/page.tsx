@@ -26,7 +26,7 @@ export default function Produk() {
               >
                 <div className="relative w-full aspect-square">
                   <Image
-                    className="rounded-xl object-cover object-center"
+                    className="rounded-l object-cover object-center"
                     fill
                     sizes="100vw"
                     src={buah.img}
@@ -61,7 +61,7 @@ export default function Produk() {
                 >
                   <div className="relative w-full aspect-square">
                     <Image
-                      className="rounded-xl object-cover object-center"
+                      className="rounded-l object-cover object-center"
                       fill
                       sizes="100vw"
                       src={sayur.img}
