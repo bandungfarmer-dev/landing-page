@@ -34,7 +34,7 @@ export const sayuran = [
   { nama: "Jamur Tiram", img: "/jamur-tiram.png" },
   { nama: "Tauge", img: "/tauge.jpg" },
   { nama: "Cabe Hijau Keriting", img: "/cabe-keriting-hijau.jpg" },
-  { nama: "Cabe Merah Besar", img: "/cabe-besar-merah.jpeg" },
+  { nama: "Cabe Merah Besar", img: "/cabe-besar-merah.jpg" },
   { nama: "Cabe Rawit Hijau", img: "/cabe-rawit-hijau.jpg" },
   { nama: "Cabe Hijau Besar", img: "/cabe-hijau-besar.jpg" },
   { nama: "Cabe Gendot Hijau", img: "/cabe-gendot-hijau.jpg" },
